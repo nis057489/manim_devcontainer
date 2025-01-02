@@ -1,0 +1,14 @@
+// .vscode/tasks.json
+{
+    "version": "2.0.0",
+    "tasks": [
+      {
+        "label": "Copy Renders to Host",
+        "type": "shell",
+        // This command copies everything from /manim/output to /manim/final_renders
+        "command": "cp -r /manim/output/* /manim/final_renders/",
+        "problemMatcher": []
+      }
+    ]
+  }
+  
