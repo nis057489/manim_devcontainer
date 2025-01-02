@@ -20,7 +20,7 @@ Quickly get up and running with [Manim](https://docs.manim.community/en/stable/i
 3. **Start Using Manim**  
    - Once the container starts, open a new terminal in VS Code (inside the container).
    - (Recommended) Use the Command Palette (`Ctrl + Shift + P` or `Cmd + Shift + P`) to invoke Manim commands provided by the [Manim Extension](https://github.com/Rickaym/manim-sideview?tab=readme-ov-file#getting-started)
-   - The most useful ones are probably `Runs a Side View`, `Render a new Scene`, and `Show Internal Manim Config`
+   - Some useful ones to start with are `Runs a Side View`, `Render a new Scene`, and `Show Internal Manim Config`
    - (Alternatively) Run Manim commands as needed, for example:
      ```bash
      manim example_scenes.py SquareToCircle -p -ql
