@@ -9,7 +9,7 @@
   // Mount a named volume for render output
   // This approach avoids the performance overhead of a bind mount for large I/O
   "runArgs": [
-    "--gpus=all",
+    "--gpus=all", // comment out on mac
     "--mount",
     "type=volume,source=manim_render_cache,target=/manim/output"
   ],
