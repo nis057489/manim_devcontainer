@@ -1,0 +1,18 @@
+// .devcontainer/devcontainer.json
+{
+  "name": "Manim Dev Container",
+  // Pulls the official Manim Community Docker image
+  "image": "manimcommunity/manim:stable",
+
+  // The folder inside the container where your project will be mounted
+  "workspaceFolder": "/manim",
+
+  // Optional: Add any VS Code settings or extensions you want inside the container
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "Rickaym.manim-sideview"
+      ]
+    }
+  }
+}
